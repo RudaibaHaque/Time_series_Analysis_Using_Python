@@ -9,7 +9,6 @@ This repository contains code for forecasting gold prices using time series anal
 - [Usage](#usage)
 - [Models](#models)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
