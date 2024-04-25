@@ -37,9 +37,22 @@ cd gold-price-forecasting
 
 Exponential Smoothing is a popular time series forecasting method that assigns exponentially decreasing weights to past observations. It is suitable for data with no clear trend or seasonality.
 
+For Exponential Smoothing model, the Mean Absolute Percentage Error (MAPE) on the test data is 17.24%.
+
 ### Linear Regression
 
 Linear Regression is a simple machine learning algorithm that fits a linear equation to the observed data. It can be used for time series forecasting when there is a linear relationship between the predictor variables (e.g., time) and the target variable (gold price).
+
+For Linear Regression model, the MAPE on the test data is 29.76%.
+
+### Naive Model
+
+A Naive Model is a simple forecasting method that uses the last observed value as the prediction for future time periods.
+
+For the Naive Model, the MAPE on the test data is 19.38%.
+
+The Exponential Smoothing model was chosen for the final prediction due to its lower MAPE compared to the other models, indicating better performance in forecasting gold prices.
+
 
 ## Contributing
 
